@@ -9,7 +9,7 @@ Półtawski Nowy is a digitisation project the Antykwa Półtawskiego typeface. 
 <h5>Expansion</h5>
 In the Półtawski Nowy digitisation, the source of the study were scans of a type specimen book from the Idźkowski i S-ka foundry, a set of drawings, punch patterns and punches made by Monotype in Salfords, Great Britain in 1934-1955. They were made available to us by the Type Archive London. Thanks to the standardization of characters and the balancing of the typographic rhythm, in the digital version, the typeface retains its ornamental character, while working well in smaller text sizes. The basic character set available in the sources has been extended with further variants of diacritics, small caps, subscript and superscript, variants of numbers (tabular, proportional, nautical) and a set of OpenType features.
 
-The typeface is brought up to the Google Latin Pro character set thanks to the support of Google Fonts.
+The typeface is brought up to the Google Latin Plus character set thanks to the support of Google Fonts.
 
 <h5>Build the fonts</h5>
   
