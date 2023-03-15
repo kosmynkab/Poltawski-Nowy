@@ -123,6 +123,14 @@ lookup ccmp_latn_2;
 tag = ccmp;
 },
 {
+code = "lookup ccmp_SoftDotted {
+	sub [idotbelow iogonek]' @CombiningTopAccents by [idotless_dotbelowcomb idotless_ogonekcomb];
+	sub [idotbelow iogonek]' @CombiningNonTopAccents @CombiningTopAccents by [idotless_dotbelowcomb idotless_ogonekcomb];
+} ccmp_SoftDotted;
+";
+tag = ccmp;
+},
+{
 automatic = 1;
 code = "lookup locl_latn_0 {
 	script latn;
@@ -30901,6 +30909,68 @@ width = 314;
 }
 );
 unicode = 305;
+},
+{
+glyphname = idotless_dotbelowcomb;
+layers = (
+{
+layerId = "45069982-2EFC-4B7D-8C53-1932E6EAC4CA";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (162,0);
+ref = dotbelowcomb;
+}
+);
+width = 294;
+},
+{
+layerId = "503E420B-61F7-4277-A1BE-A8852071B452";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (171,0);
+ref = dotbelowcomb;
+}
+);
+width = 314;
+}
+);
+},
+{
+glyphname = idotless_ogonekcomb;
+layers = (
+{
+layerId = "45069982-2EFC-4B7D-8C53-1932E6EAC4CA";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (221,0);
+ref = ogonekcomb;
+}
+);
+width = 294;
+},
+{
+layerId = "503E420B-61F7-4277-A1BE-A8852071B452";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (230,0);
+ref = ogonekcomb;
+}
+);
+width = 314;
+}
+);
 },
 {
 color = 10;
